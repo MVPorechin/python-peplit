@@ -1,4 +1,4 @@
-#_draft_m13
+# draft_m13
 # print('13.2 Возврат значений из функций. Оператор return')
 # print('Задача 1. Сумма чисел 2')
 # 
@@ -13,7 +13,7 @@
 # print(f'Сумма чисел от 1 до {number} = {summ_number(number)}')
 # first_number = summ_number(number)
 # print(f'Сумма чисел от 1 до {first_number} = {summ_number(first_number)}')
-#
+
 # print('Задача 2. «Назад в будущее»')
 # 
 # def gcd(x, y):
@@ -56,7 +56,7 @@
 #             max_number = new_value
 # 
 #     return max_number
-# 
+
 # how_many = int(input("Введите количество чисел: "))
 # print("Первая задача на обработку: ", numeral_check(how_many))
 # print('13.3 Представление вещественных чисел в программе')
@@ -105,5 +105,5 @@
 # number_one = float(input('Введите первое число: '))
 # number_two = float(input('Введите второе число: '))
 # number_three = float(input('Введите третье число: '))
-# 
+#
 # print(eqv(number_one,number_two,number_three))
