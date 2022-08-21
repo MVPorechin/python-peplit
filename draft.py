@@ -1,4 +1,4 @@
-#draft_m13
+#_draft_m13
 # print('13.2 Возврат значений из функций. Оператор return')
 # print('Задача 1. Сумма чисел 2')
 # 
@@ -13,7 +13,7 @@
 # print(f'Сумма чисел от 1 до {number} = {summ_number(number)}')
 # first_number = summ_number(number)
 # print(f'Сумма чисел от 1 до {first_number} = {summ_number(first_number)}')
-
+#
 # print('Задача 2. «Назад в будущее»')
 # 
 # def gcd(x, y):
@@ -32,7 +32,7 @@
 # y = int(input('Введите Y: '))
 # 
 # print(f'НОД = {gcd(x,y)}')
-
+#
 # print('Задача 3. Приоритет задач')
 # def numeral_count(number):
 #     count = 0
