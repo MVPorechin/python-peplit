@@ -40,4 +40,4 @@ def numeral_check(n):
 
     return max_number
 
-print('new string test')
+
