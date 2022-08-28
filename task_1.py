@@ -24,20 +24,3 @@ print('Задача 1. Урок информатики 2')
 # Формат плавающей точки: x = 1.2 * 10 ** -3
 
 
-def float_function(number):
-    count = 0
-    if number >= 1:
-        while number > 10:
-            count += 1
-            number /= 10
-    elif number <= 1.e-16:
-        print('Число слишком мало или равно нулю')
-        return 0
-    else:
-        while number < 1:
-            number *= 10
-            count -= 1
-    print(f'Формат плавающей точки: x = {round(number, 5)} * 10 ** {count}')
-
-number = float(input('Введите число: '))
-float_function(number)
