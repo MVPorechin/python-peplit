@@ -29,22 +29,23 @@ print('Задача 7. Яйца')
 # Введите максимально допустимый уровень опасности: 0.01
 # 
 # Приблизительная глубина безопасной кладки: 0.732421875 м
-# def dig_eggs():
-#     level = float(input('Введите максимально допустимый уровень опасности: '))
-#     min_depth = 1.e-15
-#     max_depth = 4
-#     depth = min_depth + (max_depth - min_depth) / 2
-#     danger_depth = depth ** 3 - 3 * depth ** 2 - 12 * depth + 10
-#     while level < 1.e-15:
-#         print('Максимально допустимый уровень опасности должен быть больше нуля')
-#     else:
-#         while level < abs(danger_depth):
-#             if danger_depth > 1.e-15:
-#                 min_depth = depth
-#             else:
-#                 max_depth = depth
-#             depth = min_depth + (max_depth - min_depth) / 2
-#             danger_depth = depth ** 3 - 3 * depth ** 2 - 12 * depth + 10
-#         print(f'Приблизительная глубина безопасной кладки: {depth} м')
-#
-# dig_eggs()
+def dig_eggs():
+    level = float(input('Введите максимально допустимый уровень опасности: '))
+    min_depth = 1.e-15
+    max_depth = 8
+    depth = min_depth + (max_depth - min_depth) / 2
+    danger_depth = depth ** 3 - 3 * depth ** 2 - 12 * depth + 10
+    while level < 1.e-15:
+        print('Максимально допустимый уровень опасности должен быть больше нуля')
+    else:
+        while level < abs(danger_depth):
+            if danger_depth > 1.e-15:
+                min_depth = depth
+            else:
+                max_depth = depth
+            depth = min_depth + (max_depth - min_depth) / 2
+            # danger_depth = depth ** 3 - 3 * depth ** 2 - 12 * depth + 10
+            danger_depth = depth ** 3 - 3 * depth ** 2 - 12 * depth + 15
+        print(f'Приблизительная глубина безопасной кладки: {depth} м')
+
+dig_eggs()
