@@ -23,12 +23,6 @@ print('Задача 1. Урок информатики 2')
 # Введите число: 0.0012
 # Формат плавающей точки: x = 1.2 * 10 ** -3
 print('Задача 3. Приоритет задач')
-def numeral_count(number):
-    count = 0
-    while number:
-        number //= 10
-        count += 1
-    return count
 
 def numeral_check(n):
     max_count = 0
