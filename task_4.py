@@ -23,8 +23,8 @@ def mantissa_and_order(number):
     while number < 1:
       number *= 10
       order -= 1
-  # print('Мантисса:', round(number, 10))
-  # print('Подярок числа:', order)
+    print('Мантисса:', round(number, 10))
+    print('Подярок числа:', order)
 
 exponential_number = float(input('Введите экспоненциальную форму числа: '))
 mantissa_and_order(exponential_number)
