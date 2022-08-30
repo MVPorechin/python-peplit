@@ -49,9 +49,11 @@ first_number = int(input('Введите первое число: '))
 second_number = int(input('Введите второе число: '))
 
 first_number, second_number = number_count(first_number, second_number)
+first_number, second_number = number_count(first_number, second_number)
 
 print(f'\nИзменённое первое число: {first_number}')
 print(f'Изменённое второе число: {second_number}')
 print(f'\nСумма чисел: {first_number + second_number}')
 
+# exit()
 exit()

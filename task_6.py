@@ -39,6 +39,8 @@ def check_pendulum(start, stop):
             count += 1
         return count
 
+# start_amplitude = float(input('Введите начальную амплитуду: '))
+# stop_amplitude = float(input('Введите амплитуду остановки: '))
 start_amplitude = float(input('Введите начальную амплитуду: '))
 stop_amplitude = float(input('Введите амплитуду остановки: '))
 print(f'Маятник считается остановившимся через {check_pendulum(start_amplitude, stop_amplitude)} колебаний.')

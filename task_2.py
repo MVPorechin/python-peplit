@@ -18,8 +18,11 @@ def maximum_number(number_one, number_two):
   return (number_one + number_two + abs(number_one - number_two)) / 2
 
 number_one = float(input('Введите первое число: '))
+# number_two = float(input('Введите второе число: '))
+# number_three = float(input('Введите третье число: '))
 number_two = float(input('Введите второе число: '))
 number_three = float(input('Введите третье число: '))
+
 
 maximum_between_number = maximum_number(number_one, number_two)
 print(f'Максимум из трех чисел: {maximum_number(maximum_between_number, number_three)}')

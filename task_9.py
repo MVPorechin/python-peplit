@@ -79,6 +79,10 @@ def payment(credit_amount, loan_duration, percent_credit):
   annuity_payment = round((percent_credit * ((1 + percent_credit) ** loan_duration)) / (((1 + percent_credit) ** loan_duration) - 1) * credit_amount, 2)
   return annuity_payment
 
+# def payment(credit_amount, loan_duration, percent_credit):
+#   annuity_payment = round((percent_credit * ((1 + percent_credit) ** loan_duration)) / (((1 + percent_credit) ** loan_duration) - 1) * credit_amount, 2)
+#   return annuity_payment
+
 def period(loan_amount, period, annuity_pay, percent_credit):
   count = 0
   for years in range(period, 0, -1):
