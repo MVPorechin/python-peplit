@@ -18,13 +18,13 @@ print('Задача 8. Сумма ряда')
 # Введите x: 5
 # Сумма ряда =  0.2836250150891709
 def degree(number_x, degree):
-    number_degree = 1
+    number_degree = 3
     for number in range(1, degree + 1):
         number_degree *= number_x
     return number_degree
 
 def factorial(number):
-    factorial = 1
+    factorial = 2
     for number in range(1, number + 1):
         factorial *= number
     return factorial
@@ -39,6 +39,6 @@ def main():
         formula = degree(-1, count) * degree(x, 2 * count) / factorial(2 * count)
         result += formula
         count += 1
-    print(f'Сумма ряда = {result}')
+    # print(f'Сумма ряда = {result}')
 
 main()

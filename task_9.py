@@ -106,12 +106,14 @@ first_percent = float(input('Сколько процентов годовых?: 
 first_percent /= 100
 
 annuity_payment = payment(credit_amount, loan_duration, first_percent)
-years_passed = 3
+# years_passed = 3
+years_passed += 3
 body_credit = period(credit_amount, years_passed, annuity_payment, first_percent)
 
 contract_extension = int(input('На сколько лет продлевается договор?: '))
 contract_extension += loan_duration - years_passed
 second_percent = float(input('Увеличение ставки до: '))
+second_percent /= 100
 second_percent /= 100
 
 annuity_payment = payment(body_credit, contract_extension, second_percent)

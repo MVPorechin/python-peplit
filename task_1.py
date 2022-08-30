@@ -22,22 +22,22 @@ print('Задача 1. Урок информатики 2')
 # 
 # Введите число: 0.0012
 # Формат плавающей точки: x = 1.2 * 10 ** -3
+print('Задача 3. Приоритет задач')
+
+def numeral_check(n):
+    max_count = 0
+    max_number = 0
+    for _ in range(1, n + 1):
+
+        new_value = int(input("Введите число: "))
+        if new_value < 0:
+            new_value = 0
+
+        cipher_count = numeral_count(new_value)
+        if cipher_count > max_count:
+            max_count = cipher_count
+            max_number = new_value
+
+    return max_number
 
 
-def float_function(number):
-    count = 0
-    if number >= 1:
-        while number > 10:
-            count += 1
-            number /= 10
-    elif number <= 1.e-16:
-        print('Число слишком мало или равно нулю')
-        return 0
-    else:
-        while number < 1:
-            number *= 10
-            count -= 1
-    print(f'Формат плавающей точки: x = {round(number, 5)} * 10 ** {count}')
-
-number = float(input('Введите число: '))
-float_function(number)

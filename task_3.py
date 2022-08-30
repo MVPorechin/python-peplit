@@ -20,20 +20,20 @@ print('Задача 3. Число наоборот 2')
 # Сумма: 522
 # Сумма наоборот: 225
 
-def number_backwards(number):
-  number_backwards = ''
-  for symbol in number:
-    number_backwards = symbol + number_backwards
-  return number_backwards
-
-def summ():
-    summ = int(number_backwards(first_number)) + int(number_backwards(second_number))
-    return summ
-
-first_number = input('Введите первое число: ')
-second_number = input('Введите второе число: ')
-
-print(f'\nПервое число наоборот: {number_backwards(first_number)}')
-print(f'Второе число наоборот: {number_backwards(second_number)}')
-print(f'\nСумма: {summ()}')
-print(f'Сумма наоборот: {number_backwards(str(summ()))}')
+# def number_backwards(number):
+#   number_backwards = ''
+#   for symbol in number:
+#     number_backwards = symbol + number_backwards
+#   return number_backwards
+#
+# def summ():
+#     summ = int(number_backwards(first_number)) + int(number_backwards(second_number))
+#     return summ
+#
+# first_number = input('Введите первое число: ')
+# second_number = input('Введите второе число: ')
+#
+# print(f'\nПервое число наоборот: {number_backwards(first_number)}')
+# print(f'Второе число наоборот: {number_backwards(second_number)}')
+# print(f'\nСумма: {summ()}')
+# print(f'Сумма наоборот: {number_backwards(str(summ()))}')
