@@ -10,6 +10,6 @@ print(f'test print')
 # import task_5
 # import task_6
 # import task_7
-# import task_8
-# import task_9
+# import task_88
+# import task_99
 
