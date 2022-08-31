@@ -38,7 +38,7 @@ def numeral_check(n):
         if cipher_count > max_count:
             max_count = cipher_count
             max_number = new_value
-
+            test+= 1
     return max_number
 
 
