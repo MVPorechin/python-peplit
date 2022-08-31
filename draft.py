@@ -70,7 +70,7 @@
 # print(f'Количество итераций {count}')
 # print('13.3 Представление вещественных чисел в программе')
 # print('Задача 2. Тестирование')
-# 
+#
 # start_number = 1
 # delta = float(input('Введите число в эксп. форме: '))
 # count = 0
@@ -85,25 +85,25 @@
 #     count += 1
 #     start_number /= 10
 # print(f'Формат плавающей точки: x = {start_number} * 10 ** {count}')
-# print('13.4 Особенности работы с вещественными числами')
-# print('Задача 1. Опять налоги')
-# budget = float(input('Введите бюджет: '))
-# receipts = float(input('Введите поступления: '))
-# while budget % 10 == 0:
-#     budget /= 10
-#     receipts /= 10
-# if int(budget + receipts) == int(budget):
-#     print('Бюджет не увеличился')
-# else:
-#     print('Бюджет увеличился')
-# print('Задача 2. Сравнение')
-# def eqv(number_one, number_two, number_three):
-#     if abs((number_one + number_two) - number_three) <= 1.e-15:
-#         return True
-#     else:
-#         return False
-# number_one = float(input('Введите первое число: '))
-# number_two = float(input('Введите второе число: '))
-# number_three = float(input('Введите третье число: '))
-#
-# print(eqv(number_one,number_two,number_three))
+print('13.4 Особенности работы с вещественными числами')
+print('Задача 1. Опять налоги')
+budget = float(input('Введите бюджет: '))
+receipts = float(input('Введите поступления: '))
+while budget % 10 == 0:
+    budget /= 10
+    receipts /= 10
+if int(budget + receipts) == int(budget):
+    print('Бюджет не увеличился')
+else:
+    print('Бюджет увеличился')
+print('Задача 2. Сравнение')
+def eqv(number_one, number_two, number_three):
+    if abs((number_one + number_two) - number_three) <= 1.e-15:
+        return True
+    else:
+        return False
+number_one = float(input('Введите первое число: '))
+number_two = float(input('Введите второе число: '))
+number_three = float(input('Введите третье число: '))
+
+print(eqv(number_one,number_two,number_three))
