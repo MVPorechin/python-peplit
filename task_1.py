@@ -27,6 +27,7 @@ print('Задача 3. Приоритет задач')
 def numeral_check(n):
     max_count = 0
     max_number = 0
+    test = 0
     for _ in range(1, n + 1):
 
         new_value = int(input("Введите число: "))
