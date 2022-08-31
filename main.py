@@ -13,3 +13,4 @@ print(f'test print')
 # import task_88
 # import task_99
 import math
+print(round(4 * math.pi,6))
